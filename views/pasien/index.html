@@ -43,18 +43,18 @@
             <td>{{ .NIK}}</td>
             <td>{{ .JenisKelamin}}</td>
             <td>{{ .TempatLahir}}</td>
-            <td>{{ .Tanggal_lahir}}</td>
+            <td>{{ .TanggalLahir}}</td>
             <td>{{ .Alamat}}</td>
             <td>{{ .NoHp}}</td>
 
             <td>
-              <a href="/pasien/edit?id={{.Id}}" class="btn btn-sm btm-warning"
+              <a href="/pasien/edit?id={{.Id}}" class="btn btn-sm btn-warning"
                 >Edit</a
               >
               <a
                 href="/pasien/delete?id={{.Id}}"
                 onclick="return confirm('Apakah anda yakin ingin menghapus data?')"
-                class="btn btn-sm btm-danger"
+                class="btn btn-sm btn-danger"
                 >Hapus</a
               >
             </td>
